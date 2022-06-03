@@ -1,0 +1,93 @@
+---
+step-runner-config:
+  config-decryptors:
+  - implementer: SOPS
+
+  global-defaults:
+    organization: redhat
+    application-name: vcs
+    service-name: frontend
+    container-image-repository: rhvcs/vcs-frontend
+
+  generate-metadata:
+  - implementer: Jenkins
+  - implementer: Npm
+  - implementer: Git
+  - implementer: SemanticVersion
+
+  tag-source:
+  - implementer: Git
+    config:
+      git-username: rhvcs-ui-release-engineering-workflow
+
+
+  unit-test:
+  - implementer: NpmXunitTest
+    config:
+      npm-test-script: test:pipeline
+      test-reports-dir: coverage
+
+  package:
+  - implementer: ploigos_step_runner.step_implementers.shared.NpmGeneric
+    config:
+      npm-args:
+      - run
+      - build
+
+  # Currently the push artifacts step is a no-op for the UI
+  push-artifacts:
+  - implementer: ploigos_step_runner.step_implementers.shared.NpmGeneric
+    config:
+      npm-args:
+      - version
+
+  create-container-image:
+  - implementer: Buildah
+
+  deploy:
+  - implementer: ArgoCD
+    config:
+      deployment-config-repo: https://gitlab.consulting.redhat.com/rhvcs/application/vcs-frontend-config.git
+      deployment-config-helm-chart-path: charts/rhvcs-frontend-deploy
+      deployment-config-helm-chart-values-file-image-tag-yq-path: 'image.tag'
+      argocd-auto-sync: True
+      argocd-sync-prune: True
+      git-username: rhvcs-ui-release-engineering-workflow
+      git-email: 'vcs+release-engineering-workflow@redhat.com'
+      force-push-tags: True
+      argocd-sync-timeout-seconds: 600 # NOTE: Set to a high value to allow HPA to gather metrics
+      argocd-sync-retry-limit: 5
+    environment-config:
+      DEV:
+        kube-api-uri: https://api.mpp-e1-preprod.syvu.p1.openshiftapps.com:6443
+        deployment-namespace: rhvcs--dev
+        deployment-config-helm-chart-environment-values-file: values-DEV.yaml
+        argocd-project: vcs-dev
+      DEVTEST:
+        kube-api-uri: https://api.mpp-e1-preprod.syvu.p1.openshiftapps.com:6443
+        deployment-namespace: rhvcs--devtest
+        deployment-config-helm-chart-environment-values-file: values-DEVTEST.yaml
+        argocd-project: vcs-devtest
+      TEST:
+        kube-api-uri: https://api.mpp-e1-preprod.syvu.p1.openshiftapps.com:6443
+        deployment-namespace: rhvcs--test
+        deployment-config-helm-chart-environment-values-file: values-TEST.yaml
+        argocd-project: vcs-test
+      PROD:
+        kube-api-uri: https://api.mpp-e1-prod.9e4s.p1.openshiftapps.com:6443
+        deployment-namespace: rhvcs--prod
+        deployment-config-helm-chart-environment-values-file: values-PROD.yaml
+        argocd-project: vcs-prod
+
+  uat:
+  - implementer: NpmXunitIntegrationTest
+    config:
+      target-host-env-var-name: APP_ROUTE
+      test-reports-dir: uat-reports
+      npm-envs:
+        WEB_DRIVER_URL: http://selenium:4444/wd/hub
+        BROWSER: chrome
+        USER1: testuser-uat
+        USER2: testuser-uat-admin
+        XAT_USER: testuser-xat
+        XAT_PRIV_USER: testuser-xat-admin

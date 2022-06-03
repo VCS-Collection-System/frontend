@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<useDarkMode /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="mockComponent"
+  >
+    off
+  </div>
+</DocumentFragment>
+`;

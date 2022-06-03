@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HRDashboard /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="pf-c-card pf-m-rounded"
+    data-ouia-component-id="OUIA-Generated-Card-1"
+    data-ouia-component-type="PF4/Card"
+    data-ouia-safe="true"
+    id=""
+  >
+    <div
+      class="pf-c-card__body"
+    >
+      <div
+        class="pf-l-grid pf-m-gutter"
+      >
+        <div
+          class="pf-l-grid__item pf-m-6-col"
+        >
+          <article
+            class="pf-c-card pf-m-rounded"
+            data-ouia-component-id="OUIA-Generated-Card-2"
+            data-ouia-component-type="PF4/Card"
+            data-ouia-safe="true"
+            id=""
+          >
+            <div
+              class="pf-c-card__title"
+            >
+              <p
+                class=""
+                data-pf-content="true"
+              >
+                Inbox
+              </p>
+              <div
+                class="pf-c-content"
+              >
+                <small
+                  class=""
+                  data-pf-content="true"
+                >
+                  Select an item below to review
+                </small>
+              </div>
+            </div>
+            <div
+              aria-label="Global"
+              class="pf-c-menu"
+              data-ouia-component-id="OUIA-Generated-Menu-1"
+              data-ouia-component-type="PF4/Menu"
+              data-ouia-safe="true"
+            >
+              <div
+                class="pf-c-menu__content"
+                style="--pf-c-menu__content--Height: 350px;"
+              >
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    Your In-Progress Tasks
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                    id="in-progress-list"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No In-Progress Tasks]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    All Available Tasks
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                    id="all-available-list"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="-1"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No Available Tasks]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div
+          class="pf-l-grid__item pf-m-6-col"
+        >
+          <article
+            class="pf-c-card pf-m-rounded warningText"
+            data-ouia-component-id="OUIA-Generated-Card-3"
+            data-ouia-component-type="PF4/Card"
+            data-ouia-safe="true"
+            id=""
+          >
+            <div
+              class="pf-c-card__title"
+            >
+              <p
+                class=""
+                data-pf-content="true"
+              >
+                Priority Inbox
+              </p>
+              <div
+                class="pf-c-content"
+              >
+                <small
+                  class=""
+                  data-pf-content="true"
+                >
+                  Select an item below to review
+                </small>
+              </div>
+            </div>
+            <div
+              aria-label="Global"
+              class="pf-c-menu"
+              data-ouia-component-id="OUIA-Generated-Menu-2"
+              data-ouia-component-type="PF4/Menu"
+              data-ouia-safe="true"
+            >
+              <div
+                class="pf-c-menu__content"
+                style="--pf-c-menu__content--Height: 350px;"
+              >
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    Positive Tests
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                    id="positive-test-list"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No Positive Tests]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    Certificates of Recovery
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                    id="recovery-list"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="-1"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No Certificates of Recovery]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pf-c-card__footer"
+    >
+      <div
+        class="pf-l-flex"
+      >
+        <div
+          class="pf-m-align-left"
+        >
+          <button
+            aria-disabled="false"
+            class="pf-c-button pf-m-plain"
+            data-ouia-component-id="OUIA-Generated-Button-plain-1"
+            data-ouia-component-type="PF4/Button"
+            data-ouia-safe="true"
+            type="button"
+          >
+            Back
+          </button>
+        </div>
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;

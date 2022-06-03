@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="pf-c-card pf-m-rounded"
+    data-ouia-component-id="OUIA-Generated-Card-1"
+    data-ouia-component-type="PF4/Card"
+    data-ouia-safe="true"
+    id=""
+  >
+    <div
+      class="pf-c-card__title"
+    >
+      <p
+        class=""
+        data-pf-content="true"
+      >
+        Profile
+      </p>
+      <div
+        class="pf-c-content"
+      >
+        <small
+          class=""
+          data-pf-content="true"
+        >
+          The information below is retrieved from your Red Hat user account.
+        </small>
+      </div>
+    </div>
+    <div
+      class="pf-c-card__body"
+    >
+      <form
+        class="pf-c-form"
+        novalidate=""
+      >
+        <div
+          class="pf-c-form__group"
+          id="employee-full-name"
+        >
+          <div
+            class="pf-c-form__group-label"
+          >
+            <label
+              class="pf-c-form__label"
+              for="profile-form-employee-full-name"
+            >
+              <span
+                class="pf-c-form__label-text"
+              >
+                Full Name
+              </span>
+            </label>
+             
+          </div>
+          <div
+            class="pf-c-form__group-control"
+          >
+            <input
+              aria-invalid="false"
+              aria-label="employee-full-name"
+              class="pf-c-form-control"
+              disabled=""
+              type="text"
+              value="mockFirst mockLast"
+            />
+          </div>
+        </div>
+        <div
+          class="pf-c-form__group"
+          id="employee-email-display"
+        >
+          <div
+            class="pf-c-form__group-label"
+          >
+            <label
+              class="pf-c-form__label"
+              for="profile-form-email"
+            >
+              <span
+                class="pf-c-form__label-text"
+              >
+                Email
+              </span>
+            </label>
+             
+          </div>
+          <div
+            class="pf-c-form__group-control"
+          >
+            <input
+              aria-invalid="false"
+              aria-label="employee-email-display"
+              class="pf-c-form-control"
+              disabled=""
+              type="email"
+              value="mock@email.com"
+            />
+          </div>
+        </div>
+        <div
+          class="pf-c-form__group"
+        >
+          <div
+            class="pf-c-form__group-control"
+          >
+            <button
+              aria-disabled="false"
+              class="pf-c-button pf-m-primary"
+              data-ouia-component-id="OUIA-Generated-Button-primary-1"
+              data-ouia-component-type="PF4/Button"
+              data-ouia-safe="true"
+              type="submit"
+            >
+              <span
+                class="pf-c-button__icon pf-m-start"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  height="1em"
+                  role="img"
+                  style="vertical-align: -0.125em;"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                >
+                  <path
+                    d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                  />
+                </svg>
+              </span>
+              Accept
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </article>
+</DocumentFragment>
+`;

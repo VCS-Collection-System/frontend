@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewInfoCard /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="pf-c-card"
+    data-ouia-component-id="OUIA-Generated-Card-1"
+    data-ouia-component-type="PF4/Card"
+    data-ouia-safe="true"
+    id=""
+  >
+    <div
+      class="pf-c-card__title"
+    >
+      <p
+        class=""
+        data-pf-content="true"
+      >
+        Review Information
+      </p>
+      <div
+        class="pf-c-content"
+      >
+        <small
+          class=""
+          data-pf-content="true"
+        />
+      </div>
+    </div>
+    <div
+      class="pf-c-card__body"
+    >
+      <form
+        class="pf-c-form"
+        novalidate=""
+      />
+    </div>
+  </article>
+</DocumentFragment>
+`;

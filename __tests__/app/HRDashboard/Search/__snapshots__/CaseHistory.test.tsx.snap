@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CaseHistory /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="pf-c-card pf-m-rounded"
+    data-ouia-component-id="OUIA-Generated-Card-1"
+    data-ouia-component-type="PF4/Card"
+    data-ouia-safe="true"
+    id=""
+  >
+    <div
+      class="pf-c-card__title"
+    >
+      <p
+        class=""
+        data-pf-content="true"
+      >
+        Case History
+      </p>
+      <div
+        class="pf-c-content"
+      >
+        <small
+          class=""
+          data-pf-content="true"
+        >
+          Review Case History
+        </small>
+      </div>
+    </div>
+    <div
+      class="pf-c-card__body"
+    >
+      <div
+        class="pf-l-grid pf-m-gutter"
+      >
+        <div
+          class="pf-l-grid__item pf-m-12-col"
+        >
+          <article
+            class="pf-c-card"
+            data-ouia-component-id="OUIA-Generated-Card-2"
+            data-ouia-component-type="PF4/Card"
+            data-ouia-safe="true"
+            id=""
+          >
+            <div
+              class="pf-c-card__title"
+            >
+              <p
+                class=""
+                data-pf-content="true"
+              >
+                Employee Information
+              </p>
+              <div
+                class="pf-c-content"
+              >
+                <small
+                  class=""
+                  data-pf-content="true"
+                />
+              </div>
+            </div>
+            <div
+              class="pf-c-card__body"
+            >
+              <form
+                class="pf-c-form"
+                novalidate=""
+              >
+                <div
+                  class="pf-l-grid pf-m-gutter"
+                >
+                  <div
+                    class="pf-l-grid__item pf-m-6-col"
+                  >
+                    <div
+                      class="pf-c-form__group"
+                    >
+                      <div
+                        class="pf-c-form__group-label"
+                      >
+                        <label
+                          class="pf-c-form__label"
+                          for="profile-form-employee-id"
+                        >
+                          <span
+                            class="pf-c-form__label-text"
+                          >
+                            Person ID
+                          </span>
+                        </label>
+                         
+                      </div>
+                      <div
+                        class="pf-c-form__group-control"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-label="profile-input-employee-id"
+                          class="pf-c-form-control"
+                          disabled=""
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="pf-c-form__group"
+                    >
+                      <div
+                        class="pf-c-form__group-label"
+                      >
+                        <label
+                          class="pf-c-form__label"
+                          for="profile-form-employee-name"
+                        >
+                          <span
+                            class="pf-c-form__label-text"
+                          >
+                            Name
+                          </span>
+                        </label>
+                         
+                      </div>
+                      <div
+                        class="pf-c-form__group-control"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-label="profile-input-employee-name"
+                          class="pf-c-form-control"
+                          disabled=""
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="pf-l-grid__item pf-m-6-col"
+                  >
+                    <div
+                      class="pf-c-form__group"
+                    >
+                      <div
+                        class="pf-c-form__group-label"
+                      >
+                        <label
+                          class="pf-c-form__label"
+                          for="profile-form-employee-email"
+                        >
+                          <span
+                            class="pf-c-form__label-text"
+                          >
+                            Email
+                          </span>
+                        </label>
+                         
+                      </div>
+                      <div
+                        class="pf-c-form__group-control"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-label="profile-input-employee-email"
+                          class="pf-c-form-control"
+                          disabled=""
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </article>
+        </div>
+        <div
+          class="pf-l-grid__item pf-m-4-col pf-m-6-row"
+        >
+          <article
+            class="pf-c-card"
+            data-ouia-component-id="OUIA-Generated-Card-3"
+            data-ouia-component-type="PF4/Card"
+            data-ouia-safe="true"
+            id=""
+          >
+            <div
+              class="pf-c-card__title"
+            >
+              <p
+                class=""
+                data-pf-content="true"
+              >
+                Attestation Records
+              </p>
+              <div
+                class="pf-c-content"
+              >
+                <small
+                  class=""
+                  data-pf-content="true"
+                />
+              </div>
+            </div>
+            <div
+              aria-label="Global"
+              class="pf-c-menu"
+              data-ouia-component-id="OUIA-Generated-Menu-1"
+              data-ouia-component-type="PF4/Menu"
+              data-ouia-safe="true"
+            >
+              <div
+                class="pf-c-menu__content"
+                style="--pf-c-menu__content--Height: 875px;"
+              >
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    Test Results
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No Test Results]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+                <section
+                  class="pf-c-menu__group"
+                >
+                  <h1
+                    class="pf-c-menu__group-title"
+                    id=""
+                  >
+                    Vaccination Records
+                  </h1>
+                  <ul
+                    class="pf-c-menu__list indentList"
+                  >
+                    <li
+                      class="pf-c-menu__list-item pf-m-disabled"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-current="false"
+                        class="pf-c-menu__item"
+                        disabled=""
+                        tabindex="-1"
+                        type="button"
+                      >
+                        <span
+                          class="pf-c-menu__item-main"
+                        >
+                          <span
+                            class="pf-c-menu__item-text"
+                          >
+                            [No Vaccination Records]
+                          </span>
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div
+          class="pf-l-grid__item pf-m-8-col pf-m-6-row"
+        >
+          <article
+            class="pf-c-card pf-m-rounded"
+            data-ouia-component-id="OUIA-Generated-Card-4"
+            data-ouia-component-type="PF4/Card"
+            data-ouia-safe="true"
+            height="500px"
+            id=""
+          >
+            <div
+              class="pf-c-card__title"
+            >
+              <p
+                class=""
+                data-pf-content="true"
+              >
+                Attestation Details
+              </p>
+              <div
+                class="pf-c-content"
+              >
+                <small
+                  class=""
+                  data-pf-content="true"
+                />
+              </div>
+            </div>
+            <div
+              class="pf-c-card__body"
+            >
+              Please Select an Item
+            </div>
+            <div
+              class="pf-c-card__footer"
+            >
+              <div
+                class="pf-l-split pf-m-gutter"
+              />
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pf-c-card__footer"
+    >
+      <div
+        class="pf-l-split pf-m-gutter"
+      >
+        <button
+          aria-disabled="false"
+          class="pf-c-button pf-m-primary"
+          data-ouia-component-id="OUIA-Generated-Button-primary-1"
+          data-ouia-component-type="PF4/Button"
+          data-ouia-safe="true"
+          type="button"
+        >
+          Add Record
+        </button>
+        <button
+          aria-disabled="false"
+          class="pf-c-button pf-m-plain"
+          data-ouia-component-id="OUIA-Generated-Button-plain-1"
+          data-ouia-component-type="PF4/Button"
+          data-ouia-safe="true"
+          type="button"
+        >
+          Back
+        </button>
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;

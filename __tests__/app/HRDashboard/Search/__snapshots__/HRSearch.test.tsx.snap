@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HRSearch /> should match existing snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="pf-c-card pf-m-rounded"
+    data-ouia-component-id="OUIA-Generated-Card-1"
+    data-ouia-component-type="PF4/Card"
+    data-ouia-safe="true"
+    id=""
+  >
+    <div
+      class="pf-c-card__title"
+    >
+      <p
+        class=""
+        data-pf-content="true"
+      >
+        Red Hat VCS Search
+      </p>
+      <div
+        class="pf-c-content"
+      >
+        <small
+          class=""
+          data-pf-content="true"
+        >
+          Search Employee
+        </small>
+      </div>
+    </div>
+    <div
+      aria-label="Global"
+      class="pf-c-menu"
+      data-ouia-component-id="OUIA-Generated-Menu-1"
+      data-ouia-component-type="PF4/Menu"
+      data-ouia-safe="true"
+    >
+      <div
+        class="pf-l-grid"
+      >
+        <div
+          class="pf-l-grid__item pf-m-9-col"
+        >
+          <div
+            class="pf-c-search-input"
+          >
+            <div
+              class="pf-c-input-group"
+            >
+              <div
+                class="pf-c-search-input__bar"
+              >
+                <span
+                  class="pf-c-search-input__text"
+                >
+                  <span
+                    class="pf-c-search-input__icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      fill="currentColor"
+                      height="1em"
+                      role="img"
+                      style="vertical-align: -0.125em;"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                    >
+                      <path
+                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    aria-label="Search input"
+                    class="pf-c-search-input__text-input"
+                    placeholder="Search by Employee ID"
+                    value=""
+                  />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pf-l-grid__item pf-m-3-col"
+        >
+          <button
+            aria-disabled="false"
+            class="pf-c-button pf-m-control pf-m-block"
+            data-ouia-component-id="OUIA-Generated-Button-control-1"
+            data-ouia-component-type="PF4/Button"
+            data-ouia-safe="true"
+            tabindex="0"
+            type="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+      <div
+        class="pf-c-menu__content"
+        style="--pf-c-menu__content--Height: 315px;"
+      >
+        <ul
+          class="pf-c-menu__list"
+        >
+          <li
+            class="pf-c-menu__list-item pf-m-disabled"
+            tabindex="-1"
+          >
+            <button
+              aria-current="false"
+              class="pf-c-menu__item"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="pf-c-menu__item-main"
+              >
+                <span
+                  class="pf-c-menu__item-text"
+                >
+                  Search Result:
+                </span>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;
